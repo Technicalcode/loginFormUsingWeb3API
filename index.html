@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+       
+            <div class="input-group">               
+                <form id="login-form" action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="d4ad12b0-16a6-4ac2-bb30-58d45e63666b">
+                
+                    <input type="text" name="name" required placeholder="Enter Your name">
+                    <input type="email" name="email" required placeholder="Enter email address">
+                    <input type="text" name="" required placeholder="Enter Password">
+                    <!-- <textarea name="message" required></textarea> -->
+                    <button type="submit">Submit Form</button>
+                
+                </form>
+            </div>
+        <div id="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
